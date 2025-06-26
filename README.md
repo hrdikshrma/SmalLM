@@ -1,9 +1,9 @@
 
 # SmalLM 🦾
 
-Welcome to **SmalLM**! This repository contains a custom-built Transformer-based language model with approximately 25 million parameters, implemented entirely from scratch using Python and PyTorch (or your chosen framework)
+Welcome to **SmalLM**! This repository contains a custom-built Transformer-based language model with approximately 25 million parameters, implemented entirely from scratch using PyTorch.
 
-⚠️ **Note:** This is an **ongoing project**. I am actively developing and refining the codebase, which means that parts of it may change frequently — including the addition, removal, or refactoring of modules and features.
+⚠️ **Note:** This is an **ongoing project**. I am actively developing and refining the codebase, which means that parts of it may change frequently, including the addition, removal, or refactoring of modules and features.
 
 
 
@@ -17,18 +17,21 @@ Welcome to **SmalLM**! This repository contains a custom-built Transformer-based
 - Feedforward networks  
 - Transformer blocks  
 - Causal masking for autoregressive language modeling
+  
 ## 🚧 Project Status
 
 - ✅ Core transformer architecture implemented  
 - ✅ Supports basic training loop 
 - 🔄 Currently optimizing performance and adding tests  
-- 🔜 Future plans include finetuning and temperature scaling techniques
+- 🔜 Future plans include fine-tuning and temperature scaling techniques
+  
 ## 🧠 Model Overview
 
 - Total parameters: ~25 million  
 - Architecture: Transformer decoder (GPT-style)  
 - Number of layers, heads, and dimensions are configurable  
 - Implements causal language modeling objective
+  
 ## 🤝 Contributing
 
 Contributions are welcome! If you have a bug fix, improvement, or a new feature to add, please follow these steps:
